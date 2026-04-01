@@ -1,1 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SuperExtintor | Recarga Certificada Extintores Bogotá</title>
+<meta name="description" content="Recarga y mantenimiento de extintores en Bogotá con certificación NTC 1694. Servicio 24/7 a domicilio. Garantía 12 meses.">
+<meta name="keywords" content="recarga extintores bogotá, mantenimiento extintores, certificados, NTC 1694, bomberos, seguridad">
 
+<!-- SEO Local -->
+<meta name="geo.region" content="CO-DC">
+<meta name="geo.placename" content="Bogotá">
+<meta name="geo.position" content="4.7110;-74.0721">
+<meta name="ICBM" content="4.7110, -74.0721">
+
+<!-- Open Graph -->
+<meta property="og:title" content="SuperExtintor | Recarga Certificada Extintores Bogotá">
+<meta property="og:description" content="Servicio profesional certificado NTC 1694. Garantía 12 meses.">
+<meta property="og:image" content="https://www.superextintor.com/fondo-extintores.jpg">
+<meta property="og:url" content="https://www.superextintor.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+:root{
+--primary:#1e3a8a;
+--primary-dark:#1e40af;
+--accent:#dc2626;
+--accent-dark:#b91c1c;
+--gold:#f59e0b;
+--dark:#0f172a;
+--gray-50:#f8fafc;
+--gray-100:#f1f5f9;
+--gray-800:#1e293b;
+--white:#ffffff;
+--shadow:0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);
+}
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif;}
+body{background:var(--gray-50);color:var(--dark);line-height:1.6;overflow-x:hidden;}
+
+/* LOADER */
+#loader{position:fixed;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,var(--primary),var(--primary-dark));z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;color:white;font-weight:600;gap:1rem;animation:pulse 1.5s infinite;}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.7}}
+
+/* NAVBAR */
+.navbar{position:fixed;width:100%;top:0;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);box-shadow:var(--shadow);z-index:1000;padding:1rem 5%;display:flex;justify-content:space-between;align-items:center;transition:all 0.3s ease;}
+.logo{font-size:1.5rem;font-weight:700;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.nav-links{display:flex;gap:2rem;list-style:none;}
+.nav-links a{color:var(--dark);text-decoration:none;font-weight:500;position:relative;transition:all 0.3s;}
+.nav-links a::after{content:'';position:absolute;bottom:-5px;left:0;width:0;height:2px;background:var(--accent);transition:0.3s;}
+.nav-links a:hover::after{width:100%}
+
+/* HERO PREMIUM */
+.hero{
+min-height:100vh;
+background:linear-gradient(135deg,rgba(30,58,138,0.85),rgba(220,38,38,0.7)), url('https://www.superextintor.com/fondo-extintores.jpg');
+background-size:cover;
+background-position:center;
+display:flex;justify-content:center;align-items:center;text-align:center;color:white;padding:0 5%;position:relative;overflow:hidden;
+}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(45deg,rgba(255,255,255,0.05),transparent);animation:shine 6s infinite;}
+@keyframes shine{0%{transform:translateX(-100%) skewX(-15deg);}100%{transform:translateX(100%) skewX(-15deg);}}
+.hero-content{max-width:900px;}
+.hero h1{font-size:clamp(2.5rem,5vw,4.5rem);font-weight:800;margin-bottom:1.5rem;text-shadow:0 10px 30px rgba(0,0,0,0.5);}
+.hero p{font-size:1.3rem;margin-bottom:2rem;opacity:0.95;}
+.cta-primary,.cta-secondary{padding:1rem 2.5rem;border:none;border-radius:12px;font-weight:600;font-size:1.1rem;cursor:pointer;transition:all 0.3s ease;box-shadow:var(--shadow);margin:0.5rem;}
+.cta-primary{background:linear-gradient(135deg,var(--accent),var(--accent-dark));color:white;}
+.cta-primary:hover{transform:translateY(-3px);box-shadow:0 25px 35px
+
+> Jerry:
+ranslateY(-3px);box-shadow:0
+
+> Jerry:
+25px 35px rgba(220,38,38,0.4);}
+.cta-secondary{background:transparent;color:white;border:2px solid white;}
+.cta-secondary:hover{background:white;color:var(--dark);}
+
+/* SECCIONES */
+.section{padding:100px 5%;max-width:1400px;margin:auto;}
+.section h2{font-size:2.5rem;font-weight:700;text-align:center;margin-bottom:3rem;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+
+/* GRID CARDS */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:2rem;}
+.card{background:white;border-radius:24px;padding:2.5rem;box-shadow:var(--shadow);transition:all 0.4s cubic-bezier(0.4,0,0.2,1);position:relative;overflow:hidden;}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--primary),var(--accent),var(--gold));}
+.card:hover{transform:translateY(-12px) scale(1.02);box-shadow:0 35px 60px rgba(0,0,0,0.15);}
+.card-icon{font-size:3rem;margin-bottom:1rem;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.card h3{font-size:1.5rem;margin-bottom:1rem;color:var(--dark);}
+
+/* GALLERY PREMIUM */
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;}
+.gallery-item{position:relative;border-radius:20px;overflow:hidden;box-shadow:var(--shadow);transition:all 0.3s;}
+.gallery-item:hover{transform:scale(1.05);}
+.gallery-item img{width:100%;height:300px;object-fit:cover;}
+.gallery-overlay{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,0.8));color:white;padding:2rem;text-align:center;transform:translateY(100%);transition:0.3s;}
+.gallery-item:hover .gallery-overlay{transform:translateY(0);}
+
+/* STATS */
+.stats{display:flex;justify-content:center;gap:4rem;flex-wrap:wrap;}
+.stat{text-align:center;}
+.stat-number{font-size:3rem;font-weight:800;color:var(--accent);}
+.stat-label{font-size:1.1rem;color:var(--gray-800);}
+
+/* TESTIMONIOS */
+.testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:2rem;}
+.testimonial-card{background:white;padding:2.5rem;border-radius:20px;box-shadow:var(--shadow);position:relative;}
+.testimonial-card::before{content:'"';font-size:6rem;color:var(--gold);position:absolute;top:-10px;left:20px;font-family:serif;opacity:0.3;}
+.stars{display:flex;gap:0.2rem;color:var(--gold);margin-bottom:1rem;}
+
+/* FORM */
+.form-container{max-width:600px;margin:auto;background:white;padding:3rem;border-radius:24px;box-shadow:var(--shadow);}
+.form-group{margin-bottom:1.5rem;}
+.form-group label{display:block;margin-bottom:0.5rem;font-weight:500;color:var(--dark);}
+input,textarea{width:100%;padding:1rem 1.5rem;border:2px solid #e2e8f0;border-radius:12px;font-size:1rem;transition:all 0.3s;background:white;}
+input:focus,textarea:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(30,58,138,0.1);}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+
+/* FOOTER */
+footer{background:linear-gradient(135deg,var(--dark),var(--gray-800));color:white;padding:4rem 5% 2rem;}
+.footer-content{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;margin-bottom:2rem;}
+.footer-section h3{margin-bottom:1rem;color:var(--gold);}
+
+/* WHATSAPP FLOTANTE */
+.whatsapp-float{position:fixed;bottom:30px;right:30px;width:70px;height:70px;background:var(--accent);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(220,38,38,0.4);transition:all 0.3s;z-index:1000;text-decoration:none;color:white;font-size:2rem;animation:bounce 2s infinite;}
+@keyframes bounce{0%,20%,50%,80%,100%{transform:translateY(0);}40%{transform:translateY(-10px);}60%{transform:translateY(-5px);}}
+.whatsapp-float:hover{transform:translateY(-5px) scale(1.1);}
+
+/* MOBILE */
+@media (max-width:768px){.navbar{padding:1rem 5%;flex-direction:column;gap:1rem;}.nav-links{display:none;}.section{padding:60px 5%;}.hero h1{font-size:2.5rem;}.form-row{grid-template-columns:1f
+
+> Jerry:
+r;}.stats{gap:2rem;}}
+</style>
+</head>
+<body>
+
+
+<!-- NAVBAR -->
+<nav class="navbar">
+<div class="logo"><i class="fas fa-fire-extinguisher"></i> SuperExtintor</div>
+<ul class="nav-links">
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#precios">Precios</a></li>
+<li><a href="#galeria">Galería</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+<div class="hero-content">
+<h1>Recarga Certificada de Extintores</h1>
+<p><strong>NTC 1694 • Bomberos Bogotá • Garantía 12 meses</strong><br>Servicio 24/7 a domicilio en toda Bogotá y municipios</p>
+<div>
+<button class="cta-primary" onclick="scrollToContact()"><i class="fab fa-whatsapp"></i> WhatsApp Ahora</button>
+<button class="cta-secondary" onclick="scrollToContact()">Llamar Gratis</button>
+</div>
+</div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="section">
+<h2><i class="fas fa-tools"></i> Nuestros Servicios</h2>
+<div class="grid">
+<div class="card"><div class="card-icon"><i class="fas fa-syringe"></i></div><h3>Recarga Completa</h3><p>Recarga certificada NTC 1694 con agente original. Prueba hidrostática 30 bar.</p></div>
+<div class="card"><div class="card-icon"><i class="fas fa-wrench"></i></div><h3>Mantenimiento</h3><p>Inspección técnica completa, válvulas, mangueras y presión. Informe digital.</p></div>
+<div class="card"><div class="card-icon"><i class="fas fa-fire-extinguisher"></i></div><h3>Venta Equipos</h3><p>Extintores ABC, CO2, polvo químico. Precios fábrica con instalación incluida.</p></div>
+<div class="card"><div class="card-icon"><i class="fas fa-certificate"></i></div><h3>Certificación</h3><p>Certificados vigentes para bomberos, policía y seguros. Validez 1 año.</p></div>
+</div>
+</section>
+
+<!-- PRECIOS -->
+<section id="precios" class="section">
+<h2>💰 Planes y Precios</h2>
+<div class="grid">
+<div class="card"><h3>Extintor ABC 10lb</h3><p><strong>$35.000</strong></p><p>Recarga certificada + sello + garantía</p></div>
+<div class="card"><h3>CO2</h3><p><strong>$55.000</strong></p><p>Ideal para equipos electrónicos</p></div>
+<div class="card"><h3>Servicio Empresarial</h3><p><strong>Desde $200.000</strong></p><p>Mantenimiento masivo + certificación</p></div>
+</div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria" class="section">
+<h2><i class="fas fa-images"></i> Antes y Después</h2>
+<div class="gallery">
+<div class="gallery-item">
+<img src="https://www.superextintor.com/galeria/antes1.jpg" alt="Extintor antes">
+<div class="gallery-overlay"><h3>ANTES</h3><p>Extintor descargado sin presión</p></div>
+</div>
+<div class="gallery-item">
+<img src="https://www.superextintor.com/galeria/proceso1.jpg" alt="Proceso recarga">
+<div class="gallery-overlay"><h3>PROCESO</h3><p>Llenado profesional con equipo calibrado</p></div>
+</div>
+<div class="gallery-item">
+<img src="https://www.superextintor.com/galeria/despues1.jpg" alt="Extintor recargado">
+<div class="gallery-overlay"><h3>DESPUÉS</h3><p>Extintor listo y certificado</p></div>
+</div>
+</div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="section">
+<h2>📩 Contáctanos</h2>
+<div class="form-container">
+<div class="form-group"><label>Nombre</label><input type="text" placeholder="Tu nombre"></div>
+<div class="form-group"><label>Teléfono / WhatsApp</label><input type="text" placeholder="3001234567"></div>
+<div class="form-group"><label>Mensaje</label><textarea placeholder="Escribe tu mensaje"></textarea></div>
+<button class="cta-primary">Enviar Mensaje</button>
+</div>
+</section>
+
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://wa.me/573001234567?text=Hola%20quiero%20recargar%20un%20extintor" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+<!-- FOOTER -->
+<footer>
+<div class="footer-content">
+<div class="footer-section"><h3>SuperExtintor</h3><p>Recarga y mantenimiento de extintores certificados en Bogotá.</p></div>
+<div class="footer-section"><h3>Contacto</h3><p>WhatsApp: 300 123 4567<br>Email: contacto@superextintor.com</p></div>
+<div class="footer-section"><h3>Redes</h3><p><i class="fab fa-facebook"></i>
